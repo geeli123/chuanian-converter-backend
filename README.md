@@ -7,10 +7,9 @@ Hosted on Google Cloud Functions.
 
 - Python
 - Google Cloud Functions
-- HTML / JavaScript / CSS
 - ffmpeg
 
-# Deployment
+## Deployment
 
 ```
 gcloud functions deploy convert-video \
