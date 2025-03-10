@@ -14,7 +14,7 @@ from typing import Dict, List
 # Configuration
 ALLOWED_EXTENSIONS = {'mp4', 'avi', 'mov', 'mkv', 'webm', 'mod', 'mpg', 'mpeg'}
 OUTPUT_FORMATS = {'mp4', 'avi', 'mov', 'webm'}
-MAX_FILE_SIZE = 500 * 1024 * 1024  # 500MB per file
+MAX_FILE_SIZE = 4 * 1000 * 1024 * 1024  # 4GB per file
 
 # Initialize Google Cloud Storage client
 storage_client = storage.Client()
